@@ -27,12 +27,12 @@ const Watcher = function ($http, $injector, Promise) {
     ];
 
     /**
-    * Creates id for a new watcher.
+    * Creates random id for a new watcher (xxx-yyy-zzz)
     */
     static createId = function () {
-      return Math.random().toString(36).substr(2, 100) + '-'
-        + Math.random().toString(36).substr(2, 100) + '-'
-        + Math.random().toString(36).substr(2, 100);
+      return Math.random().toString(36).substr(2, 3) + '-'
+        + Math.random().toString(36).substr(2, 3) + '-'
+        + Math.random().toString(36).substr(2, 3);
     }
 
     /**
