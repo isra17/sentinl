@@ -2,7 +2,7 @@
 
 ### Siren Investigate & Kibana Alerting & Reporting App
 
-> Watching your data, 24/7/365. 
+> Watching your data, 24/7/365.
 
 ---
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/77b040968c354d6597ff60a615195a1a)](https://www.codacy.com/app/qxip/SENTINL?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sirensolutions/sentinl&amp;utm_campaign=Badge_Grade)
@@ -39,15 +39,15 @@ Documentation, Examples and Guides are available at [sentinl.readthedocs.io](htt
 #### **ATTENTION** Siren 10 users should use the native version bundled with their distribution!
 
 #### Snapshot Plugin Install
-Use this example and substitute 6.2.2 with your _actual_ Kibana version or manually pick a [release](https://github.com/sirensolutions/sentinl/releases)
+Use this example and substitute 6.2.3 with your _actual_ Kibana version or manually pick a [release](https://github.com/sirensolutions/sentinl/releases)
 <pre>
-/opt/kibana/bin/kibana-plugin install https://github.com/sirensolutions/sentinl/releases/download/tag-6.2.2/sentinl-v6.2.2.zip
+/opt/kibana/bin/kibana-plugin install https://github.com/sirensolutions/sentinl/releases/download/tag-6.2.3/sentinl-v6.2.3.zip
 </pre>
 
 #### Gulp Plugin Install
 <pre>
 git clone https://github.com/sirensolutions/sentinl
-cd sentinl && npm install && gulp package --version=6.2.2
+cd sentinl && npm install && gulp package --version=6.2.3
 /opt/kibana/bin/kibana-plugin install file:///`pwd`/target/gulp/sentinl.zip
 </pre>
 
@@ -57,7 +57,7 @@ cd sentinl && npm install && gulp package --version=6.2.2
 </pre>
 
 
-### Project Status 
+### Project Status
 
 * Production Ready w/ thousands of deployments
 * Please help us by starring the Project
@@ -65,10 +65,10 @@ cd sentinl && npm install && gulp package --version=6.2.2
 
 ### Issues & Bugs
 Please [report](https://github.com/sirensolutions/sentinl/issues) any ideas, bug reports and findings on the repository.
- 
 
 
- 
+
+
 ## License
 <pre>
 This software is licensed under the Apache License, version 2 ("ALv2"), quoted below.
